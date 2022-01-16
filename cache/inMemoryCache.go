@@ -10,7 +10,7 @@ type Cache struct {
 	store map[string]interface{}
 }
 
-func (cas *Cache) New() Cache {
+func New() Cache {
 	return Cache{
 		store: make(map[string]interface{}),
 	}

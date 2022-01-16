@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	cache "github.com/SenselessA/in-memory-cache"
+	"github.com/SenselessA/in-memory-cache/cache"
 )
 
 func main() {
